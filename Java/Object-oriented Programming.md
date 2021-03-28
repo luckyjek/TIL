@@ -15,8 +15,7 @@ factorial -> 5팩토리얼 -> 5x4x3x2x1 =120결과를 얻는다.<br>
   <summary> 
     <b>1. for(반복)문을 이용한 Factorial구하기</b>
   </summary>
-   <!-- <img src=/image/forF.jpg> -->
-    ![forF](./image/forF.jpg)
+   <img src=https://github.com/luckyjek/TIL_/blob/main/Java/image/forF.jpg>
   </div>
 </details>
 
