@@ -43,10 +43,35 @@ factorial -> 5팩토리얼 -> 5x4x3x2x1 =120결과를 얻는다.<br>
    <img src=https://github.com/luckyjek/TIL_/blob/main/Java/image/jeg_F.jpg>
   </div>
 </details>
-
-<!--
-참고자료 :
-https://hanhyx.tistory.com/32
-자바의정석 3판
-https://kldp.org/node/134556
--->
+<br>
+<br>
+<details open>
+  
+  <summary> 
+    <b>3. [중요]스택오버플로우 에러 처리->'매개변수의 유효성검사'</b>
+  </summary>
+  <div>
+   <h5><br>
+       매개변수 n의 값이 0인 경우에는...?<br>
+       if문의 조건식이 절대 참이 될 수 없기 때문에 계속해서 재귀호출만 일어날 뿐<br>
+       메서드가 종료되지 않으므로 스택에 계속 데이터가 쌓여만간다. <br>
+       어느 시점에 이르러서는 결국 스택의 저장한계를 넘게되고, 
+       '스택오버플로우 에러'가 발생한다. (+ 매개변수 n의 값이 100,000과 같이 큰 경우에도 마찬가지)<br>
+       274pg 메서드를 작성할때,<br>
+       '호출하는 사람이 당연히 알아서 적절한 값을 인자로 주겠지.'<br> 
+       라는 막연한 믿음은 절대 금물이다. <br>
+       어떤 값이 들어와도 에러없이 처리되는 견고한 코드를 작성해야된다.<br> 그래서 '매개변수의 유효성 검사'가 중요한것이다.<br> 
+       </h5>
+   <img src=https://github.com/luckyjek/TIL_/blob/main/Java/image/stackover.jpg>
+   <h6>매개변수의 유효성을 검사하는 코드를 추가해서<br> 
+   메서드 factorial의 매개변수 n이 음수거나 20보다크면-1을 반환하도록하였다. </h6>
+  </div>
+</details>
+<br>
+<br>
+<h6>
+참고자료 :<br>
+https://hanhyx.tistory.com/32<br>
+자바의정석 3판<br>
+https://kldp.org/node/134556<br>
+</h6>
