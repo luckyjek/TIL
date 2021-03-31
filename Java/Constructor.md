@@ -25,7 +25,7 @@ Card c = new Card();
 <h3><br> 
 2.매개변수가 있는 생성자
 </h3>
-<details open>
+<details close>
   <summary> 
     <b>인스턴스를 생성한 다음에 인스턴스 변수의 값을 변경하는 것보다<br>
        매개변수를 갖는 생성자를 사용하는 것이 코드를 보다 간결하고 직관적으로 만든다.
