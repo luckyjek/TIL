@@ -1,32 +1,3 @@
-/**
- * description : 최소값과 최대값을 파라미터로 받고 그 사이의 무작위(random) 정수를 반환하는 함수
- * @param {Number} min
- * @param {Number} max
- * @returns {Number} min과 max 사이의 랜덤 정수 값
- */
-function getRandomInteger(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-// 삼한 연산자 활용 좋은 예시
-function rspPlayer(userRSP) {
-    const arrRSP = ["가위", "바위", "보"];
-    const playerRSP = arrRSP[getRandomInteger(0, 2)];
-
-    const winValue = {
-        가위: "보",
-        바위: "가위",
-        보: "바위",
-    };
-
-    return {
-        userRSP: userRSP,
-        playRSP: playerRSP,
-        winner:
-            userRSP == playerRSP ? 0 : winValue[userRSP] == playerRSP ? 1 : -1,
-    };
-}
-
 // arrow function example1
 userList.filter((u) => u.gender == "male");
 
@@ -127,24 +98,6 @@ var getSpecificGroup = function (userList, keyAge) {
     return myMap;
 };
 
-// table example
-function doSearch() {
-    var gender = document.getElementById("sel_gender").value;
-
-    // * 배열의 형태로 담는 이유 : 퍼포먼스적으로(성능적으로) 배열의 형태로 담는 것이 좋다. 좀 더 직관적으로 그릴 수도 있음.
-    var h = [];
-    for (var user of userList) {
-        if (gender == user.gender) {
-            h.push("<tr>");
-            h.push("<td>" + user.name + "</td>");
-            h.push("<td>" + user.gender + "</td>");
-            h.push("<td>" + user.company + "</td>");
-            h.push("</tr>");
-        }
-    }
-    document.getElementById("tb").innerHTML = h.join("");
-}
-
 function getScores() {
     return [70, 80, 90];
 }
@@ -193,19 +146,6 @@ const newObject = {
 newObject.sayNode(); // Node
 newObject.sayJS(); // JS
 console.log(newObject.ES6); // Fantastic
-
-const relationship2 = {
-    name: "zero",
-    friends: ["nero", "hero", "xero"],
-    logFriends() {
-        // 여기서 this 는 logFreinds()
-        // arrow function 사용하면 상위 스코프의 this 를 그대로 사용할 수 있다.
-        this.friends.forEach((friend) => {
-            console.log(this.name, friend);
-        });
-    },
-};
-relationship2.logFriends();
 
 const promise1 = Promise.resolve("성공1");
 const promise2 = Promise.resolve("성공2");
