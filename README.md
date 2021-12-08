@@ -23,7 +23,7 @@
 <h2>TodayWorld Folder</h2>
   -DNS란?
  <ul>
-  <li><a href="https://github.com/luckyjek/TIL_/blob/main/TodayWorld/DNS.pdf"></a></li>
+  <li><a href="https://github.com/luckyjek/TIL_/blob/main/TodayWorld/DNS.pdf" /></li>
  </ul>  
   
   
