@@ -14,10 +14,10 @@
 
 
 
-<h2>DNS란?<h2>
+<!-- <h2>DNS란?<h2>
  <ul>
   <li><a href="https://github.com/luckyjek/TIL_/blob/main/TodayWorld/DNS.pdf"></a><<li>
- <ul>
+ <ul> -->
 <h2>ETC</h2>
 <ul>
  <li>:recycle:<a href="">티끌모아태산<a></li>
