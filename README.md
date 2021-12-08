@@ -12,6 +12,12 @@
 개인적으로 중요시되는 우선순위로 작성 <br>
 </blockquote>
 
+
+
+<h2>DNS란?<h2>
+ <ul>
+  <li><a href="https://github.com/luckyjek/TIL_/blob/main/TodayWorld/DNS.pdf"></a><<li>
+ <ul>
 <h2>ETC</h2>
 <ul>
  <li>:recycle:<a href="">티끌모아태산<a></li>
@@ -26,7 +32,7 @@
 
 <h2>JavaScript</h2>
 <ul>
- <li><a href="https://github.com/luckyjek/TIL_/blob/main/JavaScript/JSON.md">JSON<a></li>
+ <li><a href="https://github.com/luckyjek/TIL_/blob/main/JavaScript/JSON.md">JSON</a></li>
 </ul>
 <h2>HTTP</h2>
 
