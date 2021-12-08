@@ -1,5 +1,3 @@
-// arrow function example1
-userList.filter((u) => u.gender == "male");
 
 // 문자열 #로 split하고 empty element 제거
 var tagFilter = function () {
