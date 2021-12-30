@@ -13,10 +13,7 @@
 </blockquote>
 
 
-<h2>ETC</h2>
-<ul>
- <li>:recycle:<a href="">티끌모아태산<a></li>
-</ul>
+
 
 <h2>Blog | TodayWorld </h2>
   <h3>인터넷Part1</h3>
@@ -24,3 +21,16 @@
   <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?</a></li>
  </ul>  
   
+
+
+
+
+
+
+
+
+<br/>
+<h2>ETC</h2>
+<ul>
+ <li>:recycle:<a href="">티끌모아태산<a></li>
+</ul>
