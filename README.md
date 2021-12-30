@@ -13,37 +13,14 @@
 </blockquote>
 
 
-
-
 <h2>ETC</h2>
 <ul>
  <li>:recycle:<a href="">티끌모아태산<a></li>
 </ul>
 
-<h2>TodayWorld Folder</h2>
-  -인터넷Part1
+<h2>Blog | TodayWorld </h2>
+  <h3>인터넷Part1</h3>
  <ul>
   <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?</a></li>
  </ul>  
   
-  
-<h2>JAVA</h2>
-- 제네릭
-
-<h2>Database/Oracle/sql</h2>
-
-<h2>Spring Framework</h2>
-
-<h2>JavaScript</h2>
-<ul>
- <li><a href="https://github.com/luckyjek/TIL_/blob/main/JavaScript/JSON.md">JSON</a></li>
-</ul>
-<h2>HTTP</h2>
-
-<h2>Servlet & JSP</h2>
-
-<h2>Git</h2>
-
-<h2>Tools</h2>
-
-<h2>중국시장조사</h2>
