@@ -17,7 +17,7 @@ https://gitmoji.dev/  이모지사용<br>
 
 
 <h2>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h2>
-  <h3>🌐인터넷Part1</h3>
+  <h3>Part1 🌐인터넷</h3>
  <ul>
   <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?
 <br>(How does the internet work? | 互联网是怎样运作的?)</a></li>
@@ -26,8 +26,8 @@ https://gitmoji.dev/  이모지사용<br>
   <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
 <br>(What is HTTP? | HTTP是什么意思？)</a></li>
  </ul>  
-  
-
+  <hr/>
+ <h3>Part2 📝HTML</h3>
 
 
 
