@@ -7,7 +7,7 @@
 
 <blockquote>
 <p> 
-오늘 학습한 내용(학원커리큘럼&자율학습)을 정리해두는 저장소<br>
+오늘 학습한 내용을 정리해두는 저장소<br>
 이해되지않는건 기록하지말기 <br>
 개인적으로 중요시되는 우선순위로 작성 <br>
 </blockquote>
@@ -21,9 +21,9 @@
 </ul>
 
 <h2>TodayWorld Folder</h2>
-  -DNS란?
+  -인터넷Part1
  <ul>
-  <li><a href="https://github.com/luckyjek/TIL_/blob/main/TodayWorld/DNS.pdf">DNS용어 살펴보기</a></li>
+  <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?</a></li>
  </ul>  
   
   
