@@ -23,7 +23,8 @@ https://gitmoji.dev/  이모지사용<br>
 <br>(How does the internet work? | 互联网是怎样运作的?)</a></li>
  </ul>  
   <ul>
-  <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?(What is HTTP?)</a></li>
+  <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
+<br>(What is HTTP? | HTTP是什么意思？)</a></li>
  </ul>  
   
 
