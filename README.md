@@ -26,7 +26,8 @@ https://gitmoji.dev/  이모지사용<br>
   <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
 <br>(What is HTTP? | HTTP是什么意思？)</a></li>
  </ul>  
-  <hr/>
+
+
  <h3>Part2 📝HTML</h3>
 
 
