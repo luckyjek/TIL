@@ -2,7 +2,7 @@
 역추적으로 공부하는 학습기르기<br>
 느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
 
-# Today I learned (TIL)
+# Today I learned
 
 
 <blockquote>
@@ -26,7 +26,7 @@ https://gitmoji.dev/  이모지사용<br>
   <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
 <br>(What is HTTP? | HTTP是什么意思？)</a></li>
  </ul>  
-<li><a href="https://luckyjek.tistory.com/54?category=1243491">DNS 및 작동방식
+  <li><a href="https://luckyjek.tistory.com/54?category=1243491">DNS 및 작동방식
 <br>(DNS and how it works? | DNS及解析过程)</a></li>
  </ul>  
   <li><a href="https://luckyjek.tistory.com/56?category=1243491">도메인네임이란?
