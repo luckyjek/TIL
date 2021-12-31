@@ -26,7 +26,12 @@ https://gitmoji.dev/  이모지사용<br>
   <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
 <br>(What is HTTP? | HTTP是什么意思？)</a></li>
  </ul>  
-
+<li><a href="https://luckyjek.tistory.com/54?category=1243491">DNS 및 작동방식
+<br>(DNS and how it works? | DNS及解析过程)</a></li>
+ </ul>  
+  <li><a href="https://luckyjek.tistory.com/56?category=1243491">도메인네임이란?
+<br>(What is Domain Name? | Domain Name是什么意思？)</a></li>
+ </ul>  
 
  <h3>Part2 📝HTML</h3>
 
