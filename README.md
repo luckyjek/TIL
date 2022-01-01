@@ -35,7 +35,7 @@ https://gitmoji.dev/  이모지사용<br>
    <br>(What is Domain Name? | Domain Name是什么意思？)</a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/56?category=1243491">hosting이란?
+   <li><a href="https://luckyjek.tistory.com/64">hosting이란?
    <br>(What is hosting? | hosting是什么意思？)</a></li>
  </ul>  
 
