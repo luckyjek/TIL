@@ -44,7 +44,7 @@ https://gitmoji.dev/  이모지사용<br>
   <br>
  <h3>Part3 🎨CSS</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/66">Learn the basics
+   <li><a href="https://luckyjek.tistory.com/66">기본배우기
    <br>(Learn the basics | 学基础知识 )</a></li>
  </ul>  
   <ul>  
