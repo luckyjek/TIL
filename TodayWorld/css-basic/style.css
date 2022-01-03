@@ -1,0 +1,28 @@
+button:hover {
+    color: red;
+    background: beige;
+}
+
+/* a[href]{
+color:purple;
+} */
+
+a[href="naver.com"] {
+    /*링크중 naver.com만*/
+    color: purple;
+}
+
+a[href^="google"] {
+    /*google로 시작하는 아이들만*/
+    color: red;
+}
+
+a[href$="..."] {
+    /*google로 시작하는 아이들만*/
+    color: blue;
+}
+
+/*here*/
+div[class="test"] {
+    color: green;
+}
