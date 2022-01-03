@@ -36,7 +36,7 @@ body {
     border-radius: 80px;
 }
 
-@media screen and (576px) {
+@media screen and (min-width: 576px) {
     /* 가로 길이가 567이상일때만 적용되는 애들*/
 
     .box {
@@ -48,6 +48,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+    /* 가로 길이가 768이상일때만 적용되는 애들*/
     .box {
         background-color: #ffc82c;
     }
@@ -58,6 +59,7 @@ body {
 
 /*max-width 적용 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    /*768에서부터 991구간까지 (사진) 빙글빙글 돌아라~*/
     .box img {
         animation: rotate 1500ms infinite;
     }
