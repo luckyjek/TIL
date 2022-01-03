@@ -47,6 +47,10 @@ https://gitmoji.dev/  이모지사용<br>
    <li><a href="https://luckyjek.tistory.com/66">Learn the basics
    <br>(Learn the basics | 学基础知识 )</a></li>
  </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/67?category=1243491">반응형디자인and미디어쿼리
+   <br>(Responsive design and Media Queries | 自适应设计和媒体查询 )</a></li>
+ </ul>  
 
 
 
