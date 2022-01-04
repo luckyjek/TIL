@@ -40,7 +40,10 @@ https://gitmoji.dev/  이모지사용<br>
  </ul>  
 
  <h3>Part2 📝HTML</h3>
-  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/68">HTML이란?
+   <br>(Learn the basics | 学基础知识)</a></li>
+ </ul>  
   <br>
  <h3>Part3 🎨CSS</h3>
   <ul>  
