@@ -21,11 +21,11 @@ https://gitmoji.dev/  이모지사용<br>
  <ul>
    <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?
    <br>(How does the internet work? | 互联网是怎样运作的?)</a></li>
- </ul>  
- <ul>
+
+
    <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
    <br>(What is HTTP? | HTTP是什么意思？)</a></li>
- </ul>  
+
  <ul>
    <li><a href="https://luckyjek.tistory.com/54?category=1243491">DNS 및 작동방식
    <br>(DNS and how it works? | DNS及解析过程)</a></li>
@@ -62,5 +62,8 @@ https://gitmoji.dev/  이모지사용<br>
 <br/>
 <h2>ETC</h2>
 <ul>
- <li>:recycle:<a href="">티끌모아태산<a></li>
+ <p>:recycle>티끌모아태산 | 끄적끄적</p>
 </ul>
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/70">끄적끄적</a></li>
+ </ul>  
