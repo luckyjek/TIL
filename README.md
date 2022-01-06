@@ -1,18 +1,19 @@
-# Today I learned 
-<h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
+  # Today I learned 
+  <h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
-:bulb: Today I learned / 오늘의 학습 기록소
-역추적으로 공부하는 학습기르기<br>
-느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
+  :bulb: 오늘의 학습 기록소
+  역추적으로 공부하는 학습기르기<br>
+  느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
 
-<blockquote>
-<p> 
-오늘 학습한 내용을 정리해두는 저장소<br>
-이해되지않는건 기록하지말기 <br>
-개인적으로 중요시되는 우선순위로 작성 <br>
-https://gitmoji.dev/  이모지사용<br>
-</blockquote>
+  <blockquote>
+  <p> 
+  오늘 학습한 내용을 정리해두는 저장소<br>
+  이해되지않는건 기록하지말기 <br>
+  개인적으로 중요시되는 우선순위로 작성 <br>
+  https://gitmoji.dev/  이모지사용<br>
+  </blockquote>
 
+ <br/>
 
   <h3>Part1 🌐인터넷</h3>
   <ul>
