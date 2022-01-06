@@ -2,7 +2,8 @@
 역추적으로 공부하는 학습기르기<br>
 느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
 
-# Today I learned
+# Today I learned 
+<h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
 <blockquote>
 <p> 
@@ -12,7 +13,6 @@
 https://gitmoji.dev/  이모지사용<br>
 </blockquote>
 
-<h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
   <h3>Part1 🌐인터넷</h3>
   <ul>
