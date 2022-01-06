@@ -12,7 +12,7 @@
 https://gitmoji.dev/  이모지사용<br>
 </blockquote>
 
-<h2>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h2>
+<h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
   <h3>Part1 🌐인터넷</h3>
   <ul>
