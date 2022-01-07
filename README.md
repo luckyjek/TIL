@@ -51,5 +51,14 @@
  
 <h3>♻️ETC | 티끌모아태산</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/70">01-Markup basics</a></li>
+   <li><a href="https://luckyjek.tistory.com/70">[HTML실습] 01 - Markup basics</a></li>
  </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/71?category=1251360">[HTML실습] 02 - Markup basics </a></li>
+ </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/72">[CSS실습] 01 - Box </a></li>
+ </ul>  
+
+
+
