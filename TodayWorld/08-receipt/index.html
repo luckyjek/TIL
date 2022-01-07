@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Receipt</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <h1>
+            Bill sharing reuest
+            <span>from luckyjek</span>
+            <!--같은 제목이지만, style처리를 해주기위해 <span>으로 처리했다.-->
+        </h1>
+
+        <div class="receipt">
+            <h2>McDonald's</h2>
+            <strong class="barcode">
+                <img src="./assets/barcode.svg" alt="" />
+            </strong>
+            <span aria-label="Issued on June 24, 20xx"> 24.06.20xx </span>
+
+            <div>
+                <dl>
+                    <div>
+                        <dt>
+                            Coke Light - 0.3<spna aria-label="litter">L</spna>
+                        </dt>
+                        <dd>&dollar;1.50</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            Heineken Beer - 0.5<spna aria-label="litter"
+                                >L</spna
+                            >
+                        </dt>
+                        <dd>&dollar;3.25</dd>
+                    </div>
+                    <div>
+                        <dt>Chicken McNuggets</dt>
+                        <dd>&dollar;21.00</dd>
+                    </div>
+                </dl>
+
+                <dl>
+                    <dt>In total</dt>
+                    <dd><strong>&dollar;25.75</strong></dd>
+                </dl>
+            </div>
+        </div>
+    </body>
+</html>
