@@ -57,7 +57,8 @@
    <li><a href="https://luckyjek.tistory.com/71?category=1251360">[HTML실습] 02 - Markup basics </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/72">[CSS실습] 01 - Box </a></li>
+   <li><a href="https://luckyjek.tistory.com/72">[CSS이론] 01 - Box </a></li>
+   <p>Box모델</p>
  </ul>  
 
 
