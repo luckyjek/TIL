@@ -33,7 +33,7 @@
  
  <h3>Part2 📝HTML</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/68">HTML이란?
+   <li><a href="https://luckyjek.tistory.com/66?category=1243491">HTML이란?
    <br>(Learn the basics | 学基础知识)</a></li>
  </ul>  
  
@@ -41,7 +41,7 @@
   
  <h3>Part3 🎨CSS</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/66">기본배우기
+   <li><a href="https://luckyjek.tistory.com/68?category=1243491">기본배우기
    <br>(Learn the basics | 学基础知识 )</a></li>
    <li><a href="https://luckyjek.tistory.com/67?category=1243491">반응형디자인and미디어쿼리
    <br>(Responsive design and Media Queries | 自适应设计和媒体查询 )</a></li>
