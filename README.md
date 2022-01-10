@@ -59,6 +59,12 @@
   <ul>  
    <li><a href="https://luckyjek.tistory.com/72">[CSS이론] 01 - Box Model & Box Sizing </a></li>
  </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/73?category=1251360">[CSS이론] 02 - Box Type </a></li>
+ </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/74?category=1251360">[CSS이론] 03 - Float </a></li>
+ </ul>  
 
 
 
