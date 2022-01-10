@@ -1,0 +1,50 @@
+/* .pseudo::before {
+    content: "❗";
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.pseudo::after {
+    content: "❗";
+    margin-right: 20px;
+    font-size: 30px;
+} */
+
+.parent {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #eff2f7;
+}
+
+.parent::after {
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.child {
+    float: left;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.other {
+    color: #fff;
+    background-color: #000;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
