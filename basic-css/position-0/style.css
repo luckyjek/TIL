@@ -1,0 +1,39 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #212529;
+}
+.grandparent {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #1f2d3d;
+}
+
+.parent {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #eff2f7;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.red {
+    /* position: absolute; 붕 떠있는 상태  */
+    background-color: tomato;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
