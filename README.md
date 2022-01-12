@@ -18,15 +18,15 @@
   <h3>Part1 🌐인터넷</h3>
   <ul>
    <li><a href="https://luckyjek.tistory.com/62?category=1243491">인터넷은 어떻게 동작할까요?
-   <br>(How does the internet work? | 互联网是怎样运作的?)</a></li>
+   <br>( How does the internet work? | 互联网是怎样运作的? )</a></li>
    <li><a href="https://luckyjek.tistory.com/59?category=1243491">HTTP란 무엇입니까?
-   <br>(What is HTTP? | HTTP是什么意思？)</a></li>
+   <br>( What is HTTP? | HTTP是什么意思？ )</a></li>
    <li><a href="https://luckyjek.tistory.com/54?category=1243491">DNS 및 작동방식
-   <br>(DNS and how it works? | DNS及解析过程)</a></li>
+   <br>( DNS and how it works? | DNS及解析过程 )</a></li>
    <li><a href="https://luckyjek.tistory.com/56?category=1243491">도메인네임이란?
-   <br>(What is Domain Name? | Domain Name是什么意思？)</a></li>
+   <br>( What is Domain Name? | Domain Name是什么意思？ )</a></li>
    <li><a href="https://luckyjek.tistory.com/64">hosting이란?
-   <br>(What is hosting? | hosting是什么意思？)</a></li>
+   <br>( What is hosting? | hosting是什么意思？ )</a></li>
  </ul>
 
  <br/>
@@ -34,7 +34,7 @@
  <h3>Part2 📝HTML</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/66?category=1243491">HTML이란?
-   <br>(Learn the basics | 学基础知识)</a></li>
+   <br>( Learn the basics | 学基础知识 )</a></li>
  </ul>  
  
  <br/>
@@ -42,9 +42,11 @@
  <h3>Part3 🎨CSS</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/68?category=1243491">기본배우기
-   <br>(Learn the basics | 学基础知识 )</a></li>
+   <br>( Learn the basics | 学基础知识 )</a></li>
    <li><a href="https://luckyjek.tistory.com/67?category=1243491">반응형디자인and미디어쿼리
-   <br>(Responsive design and Media Queries | 自适应设计和媒体查询 )</a></li>
+   <br>( Responsive design and Media Queries | 自适应设计和媒体查询 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/69?category=1243491">레이아웃 만들기
+   <br>( Making Layouts | 布局制作 )</a></li>
  </ul>  
  
  <br/>
