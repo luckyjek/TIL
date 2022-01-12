@@ -7,17 +7,19 @@
 .parent {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* width: 600px; */
-    width: 600px;
-    height: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
     background-color: #eff2f7;
 }
 
 .child {
     /* width: 300px; */
-    width: 300px;
+    width: 200px;
     height: 200px;
     line-height: 200px;
     text-align: center;
@@ -26,11 +28,11 @@
 }
 
 .red {
-    order: 3;
+    /* order: 3; */
     background-color: red;
 }
 .yellow {
-    order: 1;
+    /* order: 1; */
     background-color: yellow;
 }
 .blue {
