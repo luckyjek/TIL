@@ -69,7 +69,7 @@
    <li><a href="https://luckyjek.tistory.com/75?category=1251360">[CSS실습] 04 - Position </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/77?category=1251360">[CSS이론] 05 - Flexbox </a></li>
+   <li><a href="https://luckyjek.tistory.com/77?category=1251360">[CSS이론] 05 - Flexbox | grid </a></li>
  </ul>  
 
 
