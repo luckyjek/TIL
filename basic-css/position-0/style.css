@@ -3,7 +3,7 @@ body {
     color: #212529;
 }
 .grandparent {
-    position: relative;
+    /* position: relative; */
     width: 800px;
     height: 600px;
     margin: 0 auto;
@@ -26,7 +26,9 @@ body {
 }
 
 .red {
-    /* position: absolute; 붕 떠있는 상태  */
+    /* 붕 떠있는 상태  */
+    /* position: absolute; */
+    /* float: left; */
     background-color: tomato;
 }
 
