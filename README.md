@@ -57,17 +57,19 @@
    <li><a href="https://luckyjek.tistory.com/71?category=1251360">[HTML실습] 02 - Markup basics </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/72">[CSS이론] 01 - Box Model & Box Sizing </a></li>
+   <li><a href="https://luckyjek.tistory.com/72">[CSS실습] 01 - Box Model & Box Sizing </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/73?category=1251360">[CSS이론] 02 - Box Type </a></li>
+   <li><a href="https://luckyjek.tistory.com/73?category=1251360">[CSS실습] 02 - Box Type </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/74?category=1251360">[CSS이론] 03 - Float </a></li>
+   <li><a href="https://luckyjek.tistory.com/74?category=1251360">[CSS실습] 03 - Float </a></li>
  </ul>  
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/75?category=1251360">[CSS이론] 04 - Position </a></li>
+   <li><a href="https://luckyjek.tistory.com/75?category=1251360">[CSS실습] 04 - Position </a></li>
  </ul>  
-
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/77?category=1251360">[CSS이론] 05 - Flexbox </a></li>
+ </ul>  
 
 
