@@ -35,21 +35,33 @@
   <ul>  
    <li><a href="https://luckyjek.tistory.com/66?category=1243491">기본배우기
    <br>( Learn the basics | 学基础知识 & HTML시멘틱구조 | HTML5 语义元素 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/67?category=1243491">Forms 및 유효성검사 | 모범사례
+   <br>( Forms and Validations & Conventions and Best Practices )</a></li>
+   <li><a href="https://luckyjek.tistory.com/68?category=1243491">웹 접근성 및 SEO기본 (미완성)
+   <br>( Accessibilty & SEO Basics )</a></li>
  </ul>  
  
  <br/>
   
  <h3>Part3 🎨CSS</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/68?category=1243491">기본배우기
+   <li><a href="https://luckyjek.tistory.com/78?category=1243491">기본배우기
    <br>( Learn the basics | 学基础知识 )</a></li>
-   <li><a href="https://luckyjek.tistory.com/67?category=1243491">반응형디자인and미디어쿼리
+   <li><a href="https://luckyjek.tistory.com/76?category=1243491">반응형디자인and미디어쿼리
    <br>( Responsive design and Media Queries | 自适应设计和媒体查询 )</a></li>
    <li><a href="https://luckyjek.tistory.com/69?category=1243491">레이아웃 만들기
    <br>( Making Layouts | 布局制作 )</a></li>
  </ul>  
  
  <br/>
+ 
+  <h3>Part4 🔥JavaScript</h3>
+  <ul>  
+   <li><a href="">... 
+   <br>( ... )</a></li>
+ </ul>  
+ 
+ 
  
 <h3>♻️ETC | 티끌모아태산</h3>
   <ul>  
