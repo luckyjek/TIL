@@ -33,8 +33,8 @@
  
  <h3>Part2 📝HTML</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/66?category=1243491">HTML이란?
-   <br>( Learn the basics | 学基础知识 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/66?category=1243491">기본배우기
+   <br>( Learn the basics | 学基础知识 & HTML시멘틱구조 | HTML5 语义元素 )</a></li>
  </ul>  
  
  <br/>
