@@ -10,7 +10,7 @@
   오늘 학습한 내용을 정리해두는 저장소<br>
   이해되지않는건 기록하지말기 <br>
   개인적으로 중요시되는 우선순위로 작성 <br>
-  https://gitmoji.dev/  이모지사용<br>
+  https://gitmoji.dev/ & https://getemoji.com/ 이모지사용<br>
   </blockquote>
 
  <br/>
