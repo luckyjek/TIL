@@ -3,7 +3,7 @@
 // use this for Valina Javascript.
 "use strict";
 
-// 2. Variable
+// 2. Variable, rw(read/write) ->즉, 메모리에 읽고 쓰는게 가능하다
 // let (added in ES6)
 let globalName = "global name";
 {
@@ -24,7 +24,7 @@ console.log(globalName);
 
 console.log(age);
 
-//3. Constans
+//3. Constant  r(read only) -> 즉, 읽는 것만 가능하다. 따라서 const를 선언함과 값을 할당한 이후는 읽기만가능.
 //favor immutable data type always for a few reasons;
 // - security
 // -thread saffety
@@ -32,9 +32,21 @@ console.log(age);
 const daysInWeek = 7;
 const maxNumber = 5;
 
+//Note! dataType에는 2가지(Immutable data types AND Mutable data types)가 있다.
+//Immutable data types: primitive types, frozen objects (i.e. object.freeze())
+//Mutable data types:all objects by default are mutable in JS
+//favor immutable data type always for a few reasons:
+// -security
+// -thread safety
+// -reduce human mistakes
+
 //4. Variable types (데이터 타입)
-// primitive(더 이상 작은 단위로 나뉘어질수없다.), single item: number, string, boolean, null, undefiend, symbol
-// object(single item들을 여러개 묶어서 한 단위로 / 한 박스로 관리할 수 있게해준다.), box container
+//❗ primitive ->value(값) 자체가 메모리에 저장된다
+//(더 이상 작은 단위로 나뉘어질수없다.), single item: number, string, boolean, null, undefiend, symbol
+
+// object -> ❗너무 커서 메모리에 한번에 다 올라갈 수가 없다. 따라서 처음 가르키는 곳에는 ref(참조)가 있고,
+//❗실제로 Object를 가르키고 있는 곳이다. 그래서 이 ref를 통해서 실제로 object가 담겨있는 메모리를 가르키게된다.
+//(single item들을 여러개 묶어서 한 단위로 / 한 박스로 관리할 수 있게해준다.), box container
 // function(JS에서 function은 데이터 타입중 하나이다.), first-class function
 const count = 17; //integer
 const size = 17.1; //decimal number
