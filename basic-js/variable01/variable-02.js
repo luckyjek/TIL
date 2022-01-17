@@ -6,7 +6,7 @@ const d = Symbol("Mark");
 console.log(a, typeof a);
 console.log(c === d); //false 즉, 만들어진 심볼은 고유한 것을 의미한다. 따라서 같지않다.
 
-//new Symbol(); //Symbol is not a constructor 즉, Symbol은 생성자함수로 사용할 수 없다.
+new Symbol(); //Symbol is not a constructor 즉, Symbol은 생성자함수로 사용할 수 없다.
 //----------------------------------------------------------------------String
 // const a = "Mark";
 // console.log(a, typeof a);
