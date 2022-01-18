@@ -57,8 +57,10 @@
  
   <h3>Part4 🔥JavaScript</h3>
   <ul>  
-   <li><a href="">... 
-   <br>( ... )</a></li>
+   <li><a href="https://luckyjek.tistory.com/80?category=1243491">문법 및 기본구조(1) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
  </ul>  
  
  <br/>
