@@ -65,7 +65,7 @@
  
  <br/>
  
-<h3>ETC ♻️티끌모아태산</h3>
+<h3>♻️ ETC | 티끌모아태산</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/70">[HTML실습] 01 - Markup basics</a></li>
  </ul>  
