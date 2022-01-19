@@ -57,13 +57,15 @@
  
   <h3>Part4 🔥JavaScript</h3>
   <ul>  
-   <li><a href="">... 
-   <br>( ... )</a></li>
+   <li><a href="https://luckyjek.tistory.com/80?category=1243491">문법 및 기본구조(1) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
  </ul>  
  
  <br/>
  
-<h3>♻️ETC | 티끌모아태산</h3>
+<h3>♻️ ETC | 티끌모아태산</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/70">[HTML실습] 01 - Markup basics</a></li>
  </ul>  
