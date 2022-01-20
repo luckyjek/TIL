@@ -57,11 +57,11 @@
  
   <h3>Part4 🔥JavaScript</h3>
   <ul>  
-   <li><a href="https://luckyjek.tistory.com/80?category=1243491">문법 및 기본구조(1) 
+   <li><a href="https://luckyjek.tistory.com/80?category=1243491">문법 및 기본구조(1) | Expression, Satement, keywords, Reserved Words, Hoisting, Daya Types
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
-   <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) 
+   <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) | Conditional Statements, loop, function, Object 
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
-   <li><a href="https://luckyjek.tistory.com/85?category=1243491">문법 및 기본구조(3) | class
+   <li><a href="https://luckyjek.tistory.com/85?category=1243491">문법 및 기본구조(3) | Class
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/86?category=1243491">문법 및 기본구조(4) | Promise
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
