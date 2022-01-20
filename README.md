@@ -61,6 +61,12 @@
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) 
    <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/85?category=1243491">문법 및 기본구조(3) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/86?category=1243491">문법 및 기본구조(4) 
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/87?category=1243491">문법 및 기본구조(5) | async function, await
+   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
  </ul>  
  
  <br/>
