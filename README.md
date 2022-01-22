@@ -1,9 +1,9 @@
   # Today I learned 
   <h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
-  :bulb: 오늘의 학습 기록소<br>
-  역추적으로 공부하는 학습기르기<br>
-  느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
+  💡  오늘의 학습 기록소<br>
+  ✅ 역추적으로 공부하는 학습기르기<br>
+  ✅ 느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
 
   <blockquote>
   <p> 
