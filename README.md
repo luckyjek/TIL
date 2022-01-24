@@ -1,13 +1,13 @@
   # Today I learned 
   <h4>Blog | TodayWorld | <a href="https://roadmap.sh/frontend">Front-end 로드맵 따라하기</a></h4>
 
-  :bulb: 오늘의 학습 기록소
-  역추적으로 공부하는 학습기르기<br>
-  느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
+  💡  오늘의 학습 기록소<br>
+  ✅ 역추적으로 공부하는 학습기르기<br>
+  ✅ 느리지만 깊이있게(논리/근거 토대로) 공부하는 습관기르기
 
   <blockquote>
   <p> 
-  오늘 학습한 내용을 정리해두는 저장소<br>
+  오늘 학습한 내용을 정리해두는 기록소<br>
   이해되지않는건 기록하지말기 <br>
   개인적으로 중요시되는 우선순위로 작성 <br>
   https://gitmoji.dev/ & https://getemoji.com/ 이모지사용<br>
@@ -74,24 +74,27 @@
 <h3>♻️ ETC | 티끌모아태산</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/70">[HTML실습] 01 - Markup basics</a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/71?category=1251360">[HTML실습] 02 - Markup basics </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/72">[CSS실습] 01 - Box Model & Box Sizing </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/73?category=1251360">[CSS실습] 02 - Box Type </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/74?category=1251360">[CSS실습] 03 - Float </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/75?category=1251360">[CSS실습] 04 - Position </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/77?category=1251360">[CSS이론] 05 - Flexbox | Grid </a></li>
- </ul>  
+  </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/89">[배열심화] 배열 내장함수 더 알아보기</a></li>
+  </ul>  
 
 
