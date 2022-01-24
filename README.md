@@ -74,24 +74,27 @@
 <h3>♻️ ETC | 티끌모아태산</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/70">[HTML실습] 01 - Markup basics</a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/71?category=1251360">[HTML실습] 02 - Markup basics </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/72">[CSS실습] 01 - Box Model & Box Sizing </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/73?category=1251360">[CSS실습] 02 - Box Type </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/74?category=1251360">[CSS실습] 03 - Float </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/75?category=1251360">[CSS실습] 04 - Position </a></li>
- </ul>  
+  </ul>  
   <ul>  
    <li><a href="https://luckyjek.tistory.com/77?category=1251360">[CSS이론] 05 - Flexbox | Grid </a></li>
- </ul>  
+  </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/89">[배열심화] 배열 내장함수 더 알아보기</a></li>
+  </ul>  
 
 
