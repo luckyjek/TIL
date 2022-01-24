@@ -1,13 +1,80 @@
-let i = 0;
-let isFun = false;
+const superheroes = ["아이언맨", "캡틴아메리카", "토르", "탁터 스트레인지"];
 
-while (!isFun) {
-    console.log(i);
-    i++;
-    if (i === 30) {
-        isFun = true;
-    }
-}
+//방법 1.
+// function print(hero) {
+//     console.log(hero);
+// }
+// superheroes.forEach(print);
+
+//방법 2.
+// superheroes.forEach(function (hero) {
+//     console.log(hero);
+// });
+
+//방법 3.
+superheroes.forEach((hero) => {
+    console.log(hero);
+});
+// function biggerThanThree(numbers) {
+//     let result = [];
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (numbers[i] > 3) {
+//             result.push(numbers[i]);
+//         }
+//     }
+//     return result;
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+// console.log(biggerThanThree(numbers)); // [4, 5, 6, 7]
+
+// /**
+//  *
+//  * @param {*} numbers -숫자로 이루어진 배열을 가져온다
+//  * @returns 모든 값들의 합을 구해준다.
+//  */
+// function sumOf(numbers) {
+//     let sum = 0;
+//     for (let i = 0; i < numbers.length; i++) {
+//         sum += numbers[i];
+//     }
+//     return sum;
+// }
+
+// const result = sumOf([1, 2, 3, 4, 5]);
+// console.log(result);
+
+// for (let i = 0; i < 10; i++) {
+//     if (i === 2) continue; //그 다음 loop를 돌게하는거다
+//     console.log(i);
+//     if (i === 5) break; // 그냥 밖으로 나간다.(끝나버리는거)
+// }
+
+// const doggy = {
+//     name: "멍멍이",
+//     sound: "멍멍",
+//     age: 2,
+// };
+
+// for (let key in doggy) {
+//     console.log(key);
+//     console.log(`${key}:${doggy[key]}`);
+// }
+
+// console.log(Object.entries(doggy)); //[ [ 'name', '멍멍이' ], [ 'sound', '멍멍' ], [ 'age', 2 ] ]
+// console.log(Object.keys(doggy)); //[ 'name', 'sound', 'age' ]
+// console.log(Object.values(doggy)); //[ '멍멍이', '멍멍', 2 ]
+
+// let i = 0;
+// let isFun = false;
+
+// while (!isFun) {
+//     console.log(i);
+//     i++;
+//     if (i === 30) {
+//         isFun = true;
+//     }
+// }
 // let i = 0;
 // while (i < 10) {
 //     console.log(i);
@@ -107,7 +174,7 @@ const dog = {
 //멍멍이
 // dog.name = "뭉뭉이";
 //멍멍이이름이 바뀝니다..뭉뭉이
-console.log(dog.name);
+// console.log(dog.name);
 //_name을 조회합니다..
 //뭉뭉이
 
