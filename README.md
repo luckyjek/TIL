@@ -96,5 +96,8 @@
   <ul>  
    <li><a href="https://luckyjek.tistory.com/89">[배열심화] 배열 내장함수 더 알아보기</a></li>
   </ul>  
+    <ul>  
+   <li><a href="https://luckyjek.tistory.com/90?category=1251360">[프로토타입&클래스] 더 알아보기</a></li>
+  </ul>  
 
 
