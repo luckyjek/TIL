@@ -1,7 +1,104 @@
-const numbers = [0, 1, 2, 3, 4, 5];
+myFunction();
 
-const spreadNumbers = [...numbers, 1000, ...numbers];
-console.log(spreadNumbers);
+const myFunction = function myFunction() {
+    console.log("hello world");
+};
+// myFunction();
+
+// function myFunction() {
+//     console.log("hello world!");
+// }
+
+// var value = "hello!";
+
+// function myFunction() {
+//     var value = "bye!";
+//     if (true) {
+//         var value = "world";
+//         console.log("block scope: ");
+//         console.log(value);
+//     }
+//     console.log("function scope: ");
+//     console.log(value);
+// }
+
+// myFunction();
+// console.log("global scope: ");
+// console.log(value);
+// const value = "hello!";
+
+// function myFunction() {
+//     console.log("myFunction() :", value);
+// }
+
+// function otherFunction() {
+//     const value = "bye!";
+//     console.log("otherFunction() :", value);
+// }
+
+// myFunction(); //hello!
+// otherFunction(); //bye!
+
+// console.log("global scope :", value); //hello!
+
+// function sum(...rest) {
+//     return rest.reduce((acc, current) => acc + current, 0);
+// }
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(sum(...numbers)); //36
+
+// function subtract(x, y) {
+//     //x, y는 '파라미터' <- 즉 함수에서 받아오는 값
+//     return x - y;
+// }
+
+// const numbers = [1, 2];
+// const result = subtract(...numbers);
+// console.log(result);
+
+// //function sum(...params) {
+// function sum(...rest) {
+//     //...rest라고하면 하나의 배열[]로 받아온다.
+
+//     //기본값 0으로 시작해서, 0이라는 값이 acc(accumulator)가 되고,
+//     //current는 1,2,3,4,5,6,7,8이 쭉~들어가져서 => acc + current로 순차적으로 실행한다.
+//     return rest.reduce((acc, current) => acc + current, 0);
+// }
+
+// const result = sum(1, 2, 3, 4, 5, 6, 7, 8);
+
+// console.log(result); //36
+
+// console.log(sum(1, 2, 3, 4, 5, 6, 7)); //28
+
+// //만약 하나라도 추가를 안하면 NaN(Not a Number)이 된다. 왜?  하나가 undefine이니까.
+// console.log(sum(1, 2, 3, 4, 5, 6)); //NaN
+// const numbers = [0, 1, 2, 3, 4, 5, 6];
+
+// const [...rest, last] = numbers;
+// console.log(one);
+// console.log(two);
+// console.log(rest);
+
+// const purpleCuteSlime = {
+//     name: "슬라임",
+//     attribute: "cute",
+//     color: "purple",
+// };
+
+// //name, attribute를 모아오는 역할을한다.
+// const { color, ...cuteSlime } = purpleCuteSlime;
+// console.log(color); //purple
+// console.log(cuteSlime); //{ name: '슬라임', attribute: 'cute' }
+
+// const { attribute, ...slime } = cuteSlime;
+// console.log(slime);//{ name: '슬라임' }
+
+// const numbers = [0, 1, 2, 3, 4, 5];
+
+// const spreadNumbers = [...numbers, 1000, ...numbers];
+// console.log(spreadNumbers);
 
 // const animals = ["개", "고양이", "참새"];
 // const anotherAnimals = [...animals, "비둘기"];
