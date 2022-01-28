@@ -58,17 +58,19 @@
   <h3>Part4 🔥JavaScript</h3>
   <ul>  
    <li><a href="https://luckyjek.tistory.com/80?category=1243491">문법 및 기본구조(1) | Expression, Satement, Keywords, Reserved Words, Hoisting, Daya Types
-   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <br>( Syntax and Basic Constructs | 句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/83?category=1243491">문법 및 기본구조(2) | Conditional Statements, Loop, Function, Object 
-   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <br>( Syntax and Basic Constructs | 句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/85?category=1243491">문법 및 기본구조(3) | Class
-   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <br>( Syntax and Basic Constructs | 句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/86?category=1243491">문법 및 기본구조(4) | Promise
-   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <br>( Syntax and Basic Constructs | 句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/87?category=1243491">문법 및 기본구조(5) | async function, await
-   <br>( Syntax and Basic Constructs |句法学基本结构 )</a></li>
+   <br>( Syntax and Basic Constructs | 句法学基本结构 )</a></li>
    <li><a href="https://luckyjek.tistory.com/91">DOM조작(Manipulation)배우기
-   <br>( Learn DOM Mainpulation |学习DOM操作 )</a></li>
+   <br>( Learn DOM Mainpulation | 学习DOM操作 )</a></li>
+   <li><a href="https://luckyjek.tistory.com/79?category=1243491">ES6문법 및 모듈
+   <br>( ES6 + and modular JavaScript )</a></li>
  </ul>  
  
  <br/>
