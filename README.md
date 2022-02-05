@@ -71,6 +71,7 @@
    <br>( Learn DOM Mainpulation | 学习DOM操作 )</a></li>
    <li><a href="https://luckyjek.tistory.com/79?category=1243491">ES6문법 및 모듈
    <br>( ES6 + and modular JavaScript )</a></li>
+   <li><a href="https://luckyjek.tistory.com/94?category=1243491">fetch API / Ajax(XHR)배우기
  </ul>  
  
  <br/>
