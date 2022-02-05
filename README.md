@@ -27,6 +27,9 @@
    <br>( What is Domain Name? | Domain Name是什么意思？ )</a></li>
    <li><a href="https://luckyjek.tistory.com/64">hosting이란?
    <br>( What is hosting? | hosting是什么意思？ )</a></li>
+   <li><a href="https://luckyjek.tistory.com/65">브라우저 및 작동방식
+   <br>( Browsers and how they work? | 浏览器及解析过程 )</a></li>
+  
  </ul>
 
  <br/>
