@@ -83,6 +83,15 @@
    <ul>
      <li><a href="https://luckyjek.tistory.com/58?category=1243490">1주차용어_CORS </a></li>
    </ul>
+   <ul>
+     <li><a href="https://luckyjek.tistory.com/60?category=1243490">2주차용어_TDD </a></li>
+   </ul>
+   <ul>
+     <li><a href="https://luckyjek.tistory.com/61?category=1243490">3주차용어_디파이 </a></li>
+   </ul>
+   <ul>
+     <li><a href="https://luckyjek.tistory.com/84?category=1243490">4주차용어_챗봇 </a></li>
+   </ul>
      
 <h3>♻️ ETC | 티끌모아태산</h3>
   <ul>  
