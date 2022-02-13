@@ -79,7 +79,7 @@
  
  <br/>
 
-<h3>책 공동집필 프로젝트</h3>
+<h3>:label: 책 공동집필 프로젝트</h3>
    <ul>
      <li><a href="https://luckyjek.tistory.com/58?category=1243490">1주차용어_CORS </a></li>
    </ul>
