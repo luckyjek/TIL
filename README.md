@@ -75,6 +75,8 @@
    <li><a href="https://luckyjek.tistory.com/79?category=1243491">ES6문법 및 모듈
    <br>( ES6 + and modular JavaScript )</a></li>
    <li><a href="https://luckyjek.tistory.com/94?category=1243491">fetch API / Ajax(XHR)배우기
+   <br>( ES6 + and modular JavaScript )</a></li>
+   <li><a href="https://luckyjek.tistory.com/95?category=1243491">Hoisting 등 개념 이해하기 | Hoisting, Event Bubbling, Scope, Prototype, Shadow DOM, Strict
  </ul>  
  
  <br/>
