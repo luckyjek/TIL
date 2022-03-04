@@ -2,6 +2,7 @@ import React from 'react';
 
 //CreateUser컴포넌트는 필요한 값들을 props로 받아와서 사용할 것이다. 그리고 내부에서 상태관리는 따로 하지 않을 것.
 function CreateUser({username, email, onChange, onCreate}){
+    console.log('CreateUser');
     return(
         <div>
             <input 
@@ -24,4 +25,4 @@ function CreateUser({username, email, onChange, onCreate}){
 }
 
 // export default CreateUser;
-export default CreateUser;
+export default React.memo(CreateUser);

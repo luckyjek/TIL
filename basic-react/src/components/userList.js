@@ -1,7 +1,7 @@
 import React from 'react';
 
 //props로 user값을 받아올 것이다.
-function User({user, onRemove, onToggle}){
+const User = React.memo(function User({user, onRemove, onToggle}){
    const {username, email, id, active} = user;
     return(
         <div>
@@ -19,7 +19,7 @@ function User({user, onRemove, onToggle}){
             <button onClick={()=>onRemove(id)}>삭제</button>
         </div>
     );
-}
+});
 
 function UserList({users, onRemove, onToggle}){ //porps로 받아온 users, onRemove
 
@@ -41,4 +41,4 @@ function UserList({users, onRemove, onToggle}){ //porps로 받아온 users, onRe
         </div>
     )
 }
-export default UserList;
+export default React.memo(UserList);

@@ -50,25 +50,25 @@ function App() {
       email,
     }
     //setUsers([...users, user]); // 배열로 구조화할당 -> 기존의 배열을 복사하면서 새 항목을 추가해준다.
-    setUsers(users.concat(user));
+    setUsers(users=>users.concat(user));
     setInputs({ // 객체
       username:'',
       email:''
     })
     console.log(nextId.current); //4
     nextId.current += 1; //기존값에다가 +1 을해준다.
-  },[username, email, users]); 
+  },[username, email]); 
 
   const onRemove = useCallback(id =>{
-    setUsers(users.filter(user => user.id !== id)); 
-  },[users]);
+    setUsers(users=>users.filter(user => user.id !== id)); 
+  },[]);
   const onToggle = useCallback(id =>{
-    setUsers(users.map(
+    setUsers(users=>users.map(
       user => user.id === id
       ? {...user, active : !user.active}
       : user
     ))
-  },[users]);
+  },[]);
   //첫번째 파라미터는 함수 , 첫번째 파라미터는 deps
   //결국 []배열안에 넣는 값이 바뀌어야만 1번재 파라미터의 값을 새로 연산해주겠다. 라는것이다.
   //()=>countActiveUsers(users) 함수는 [users]가 바뀔때에만 호출이되고, 그렇지않으면 만들어놨던 값을 재사용한다.
