@@ -1,4 +1,4 @@
-import React, {useRef, useState, useMemo}from 'react';
+import React, {useRef, useState, useMemo, useCallback}from 'react';
 import CreateUser from './components/createUser';
 import UserList from './components/userList';
 
@@ -14,13 +14,13 @@ function App() {
   });
   const {username, email} = inputs;
 
-  const onChange = e =>{
+  const onChange = useCallback(e =>{
     const {name, value} = e.target;
     setInputs({
       ...inputs,
       [name]:value //받아온 name값을 value로 덮어 씌우겠다.(현재 name이 가르키고있는것은 username or email)
     })
-  }
+  },[inputs]);
   const [users,setUsers] = useState([
     {
         id:1,
@@ -43,7 +43,7 @@ function App() {
     }
 ]);
   const nextId = useRef(4); 
-  const onCreate = () =>{
+  const onCreate = useCallback(() =>{
     const user = {
       id:nextId.current,
       username,
@@ -57,18 +57,18 @@ function App() {
     })
     console.log(nextId.current); //4
     nextId.current += 1; //기존값에다가 +1 을해준다.
-  };
+  },[username, email, users]); 
 
-  const onRemove = id =>{
+  const onRemove = useCallback(id =>{
     setUsers(users.filter(user => user.id !== id)); 
-  }
-  const onToggle = id =>{
+  },[users]);
+  const onToggle = useCallback(id =>{
     setUsers(users.map(
       user => user.id === id
       ? {...user, active : !user.active}
       : user
     ))
-  }
+  },[users]);
   //첫번째 파라미터는 함수 , 첫번째 파라미터는 deps
   //결국 []배열안에 넣는 값이 바뀌어야만 1번재 파라미터의 값을 새로 연산해주겠다. 라는것이다.
   //()=>countActiveUsers(users) 함수는 [users]가 바뀔때에만 호출이되고, 그렇지않으면 만들어놨던 값을 재사용한다.
