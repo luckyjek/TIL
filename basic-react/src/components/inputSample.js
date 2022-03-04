@@ -1,10 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useRef} from 'react';
 
 function InputSample(){
     const [inputs, setInputs] = useState({
         name:'',
         nickname:'',
     });
+    const nameInput = useRef(); //useRef호출->nameInput라는 객체를 만듬
     const {name, nickname} = inputs;
 
     const onChange = (e)=>{
@@ -21,6 +22,8 @@ function InputSample(){
             name:'',
             nickname:'',
         })
+        //current가 DOM을 가르킨다. -> 그다음 DOM api중의 fucou함수를 사용한다.
+        nameInput.current.focus();
     }
 
     return(
@@ -30,6 +33,7 @@ function InputSample(){
             placeholder="이름" 
             onChange={onChange} 
             value={name}
+            ref={nameInput}
           />
           <input 
             name="nickname" 
