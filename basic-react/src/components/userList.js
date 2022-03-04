@@ -10,24 +10,8 @@ function User({user}){
     );
 }
 
-function UserList(){ //porps로 받아온 users, onRemove
-    const users = [
-        {
-            id:1,
-            username:'velopert',
-            email:'public.thxjek@gmail.com'
-        },
-        {
-            id:2,
-            username:'tester',
-            email:'tester@example.com'
-        },
-        {
-            id:3,
-            username:'liz',
-            email:'liz@example.com'
-        }
-    ]
+function UserList({users}){ //porps로 받아온 users, onRemove
+
     //array를 랜더링하는 jsx를 작성
     return(
         <div>
