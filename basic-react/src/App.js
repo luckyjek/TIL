@@ -1,19 +1,11 @@
 import React from 'react';
-import Hello from './components/hello';
-import Wrapper from './components/Wrapper';
-
+import Counter from './components/counter';
 function App() {
-  return(
-    <div>
-      <Wrapper>
-        <Hello name="react" color="red" isSpecial={true}/>
-        <Hello color="pink"/>
-      </Wrapper>
-    </div>
-
-
-)
-
+    return(
+      <div>
+        <Counter/>
+      </div>
+  )
 }
 
 export default App;
