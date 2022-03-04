@@ -1,7 +1,10 @@
 import React from 'react';
-function Hello({color,name}) {
+function Hello({color,name, isSpecial}) {
+    //false값들은 다 안나타나는데 그중 0 예외.
     return( 
-    <div style={{color:color}}>안녕하세요 {name}< /div>
+    <div style={{color:color}}>
+        {isSpecial && <b>*</b>}
+        안녕하세요 {name}< /div>
     );
 }
 
