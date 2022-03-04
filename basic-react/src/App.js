@@ -19,17 +19,21 @@ function App() {
     {
         id:1,
         username:'velopert',
-        email:'public.thxjek@gmail.com'
+        email:'public.thxjek@gmail.com',
+        active:true,
+
     },
     {
         id:2,
         username:'tester',
-        email:'tester@example.com'
+        email:'tester@example.com',
+        active:false,
     },
     {
         id:3,
         username:'liz',
-        email:'liz@example.com'
+        email:'liz@example.com',
+        active:false,
     }
 ]);
   const nextId = useRef(4); 
@@ -47,6 +51,17 @@ function App() {
     })
     console.log(nextId.current); //4
     nextId.current += 1; //기존값에다가 +1 을해준다.
+  };
+
+  const onRemove = id =>{
+    setUsers(users.filter(user => user.id !== id)); 
+  }
+  const onToggle = id =>{
+    setUsers(users.map(
+      user => user.id === id
+      ? {...user, active : !user.active}
+      : user
+    ))
   }
     return(
       <div >
@@ -56,7 +71,7 @@ function App() {
          onChange={onChange} 
          onCreate={onCreate}
         />
-       <UserList users={users}/>
+       <UserList users={users} onRemove={onRemove} onToggle={onToggle}/>
       </div>
   )
 }
