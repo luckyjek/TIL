@@ -1,6 +1,12 @@
-import React, {useRef, useState}from 'react';
+import React, {useRef, useState, useMemo}from 'react';
 import CreateUser from './components/createUser';
 import UserList from './components/userList';
+
+function countActiveUsers(users){
+  console.log('활성 사용자 수를 세는중...');
+  //active가 true인것만 필터해서 length를 가져옴.
+  return users.filter(user=>user.active).length;
+}
 function App() {
   const [inputs, setInputs] = useState({
     username:'',
@@ -63,6 +69,10 @@ function App() {
       : user
     ))
   }
+  //첫번째 파라미터는 함수 , 첫번째 파라미터는 deps
+  //결국 []배열안에 넣는 값이 바뀌어야만 1번재 파라미터의 값을 새로 연산해주겠다. 라는것이다.
+  //()=>countActiveUsers(users) 함수는 [users]가 바뀔때에만 호출이되고, 그렇지않으면 만들어놨던 값을 재사용한다.
+  const count = useMemo(()=>countActiveUsers(users),[users]);
     return(
       <div >
        <CreateUser
@@ -72,7 +82,9 @@ function App() {
          onCreate={onCreate}
         />
        <UserList users={users} onRemove={onRemove} onToggle={onToggle}/>
+      <div>활성 사용자 수 : {count}</div>
       </div>
+      
   )
 }
 
