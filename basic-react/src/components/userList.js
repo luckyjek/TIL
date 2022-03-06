@@ -1,8 +1,10 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import { UserDispatch } from '../App';
 
 //props로 user값을 받아올 것이다.
-const User = React.memo(function User({user, onRemove, onToggle}){
+const User = React.memo(function User({user}){
    const {username, email, id, active} = user;
+   const dispatch = useContext(UserDispatch);
     return(
         <div>
             <b 
@@ -10,18 +12,24 @@ const User = React.memo(function User({user, onRemove, onToggle}){
                 color: active ? 'green' : 'black',
                 cursor:'pointer'
               }}
-              onClick={()=>onToggle(id)}
+              onClick={()=>dispatch({
+                  type:'TOGGLE_USER',
+                  id
+              })}
             >
                 {username}
             </b>
             &nbsp;
             <span>({email})</span>
-            <button onClick={()=>onRemove(id)}>삭제</button>
+            <button onClick={()=>dispatch({
+                type:'REMOVE_USER',
+                id
+            })}>삭제</button>
         </div>
     );
 });
 
-function UserList({users, onRemove, onToggle}){ //porps로 받아온 users, onRemove
+function UserList({users}){ //porps로 받아온 users, onRemove
 
     //array를 랜더링하는 jsx를 작성
     return(
@@ -32,8 +40,6 @@ function UserList({users, onRemove, onToggle}){ //porps로 받아온 users, onRe
                     <User 
                         user={user} 
                         key = {user.id}
-                        onRemove = {onRemove}
-                        onToggle = {onToggle}
                     />
                  )
              )
