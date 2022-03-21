@@ -126,5 +126,8 @@
   <ul>  
    <li><a href="https://luckyjek.tistory.com/96?category=1251360">[JavaScript] 알고 있으면 유용한 JS문법(더 알아보기) </a></li>
   </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/116">[React] Redux란? </a></li>
+  </ul>  
 
 
