@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>With Redux</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/5.0.0-alpha.0/redux.js"></script>
+        <style>
+            .container{
+                border:5px solid black;
+                padding:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="red"></div>
+        <script>
+            function reducer(state, action){
+                if(state === undefined){//'초기화'를 위해 최초로 실행되는 Redux에 대한 호출이다.
+                    return {color:'yellow'}
+                }
+            }
+            var store = Redux.createStore(reducer);
+            console.log(store.getState());
+            function red(){
+                var state = store.getState(); //state 값을 가져올 수 있는 getState()
+
+                document.querySelector('#red').innerHTML=`
+                    <div class="container" id="component_red" style="background-color:${state.color}">
+                        <h1>red</h1>
+                        <input type="button" value="fire" onclick="
+                        document.querySelector('#component_red').style.backgroundColor='red';
+                        document.querySelector('#component_green').style.backgroundColor='red';
+                        document.querySelector('#component_blue').style.backgroundColor='red';
+
+                        "/>
+                    </div>
+                `;
+            }
+            red();
+        </script>
+    </body>
+</html>
