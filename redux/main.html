@@ -24,14 +24,22 @@
         }
 
         function TOC(){
+            //각 구성요소가 store에서 state를 가져온 다음에 state값을 기반으로 html코드를 생성해주면, 
+            //그 state에 따라서 만들어지는 webpage를 생성할 수가 있게된다.
             var state = store.getState();
             var i =0;
             var liTags = '';
             while( i < state.contents.length ){
                 liTags = liTags + `
-                    <li>
-                        <a href="${state.contents[i].id}">${state.contents[i].title}</a>
-                    </li>
+                <li>
+                    <a onclick="
+                        event.preventDefault();
+                        var action = {type:'SELECT', id:${state.contents[i].id}}
+                        store.dispatch(action);
+                    " href="${state.contents[i].id}">
+                        ${state.contents[i].title}
+                    </a>
+                </li>
                 `;
                 i = i + 1;
             }
@@ -63,12 +71,19 @@
         function reducer(state, action){
             if(state === undefined){
                 return{
+                    selected_id : null,
                     contents:[
                         {id:1, title:'HTML', desc:'HTML is..'},
                         {id:2, title:'CSS', desc:'CSS is ..'}
                     ]
                 }
             }
+            var newState;
+            if(action.type === 'SELECT'){
+                newState = Object.assign({}, state,{selected_id:action.id});
+            }
+            console.log(action, state, newState);
+            return newState;
         }
         var store = Redux.createStore(reducer);
         subject();
