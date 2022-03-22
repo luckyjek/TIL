@@ -129,5 +129,8 @@
   <ul>  
    <li><a href="https://luckyjek.tistory.com/116">[React] Redux란? </a></li>
   </ul>  
+  <ul>  
+   <li><a href="https://luckyjek.tistory.com/117?category=1251360">[알고리즘] 아이슈타인 퍼즐 </a></li>
+  </ul>  
 
 
