@@ -15,14 +15,28 @@
     </head>
     <body>
         <div id="red"></div>
+        <div id="blue"></div>
+        <div id="green"></div>
         <script>
             function reducer(state, action){
+                console.log(state, action);
                 if(state === undefined){//'초기화'를 위해 최초로 실행되는 Redux에 대한 호출이다.
                     return {color:'yellow'}
                 }
+                var newState;
+                if(action.type === 'CHANGE_COLOR'){
+                    // newState = Object.assign({}, state,{color:'red'},{color:'blue'});//state의 속성들이 첫번째 인자의 빈객체에 복제돼서 이것이 return된다.
+                    newState = Object.assign({}, state,{color:action.color});//state의 속성들이 첫번째 인자의 빈객체에 복제돼서 이것이 return된다.
+                }
+                console.log(action.type, action, state, newState);
+                return newState; //즉 state를 복제하고, 복제한 것의 color를 red로 준 결과를 return하는 것이다.
             }
-            var store = Redux.createStore(reducer);
-            console.log(store.getState());
+            var store = Redux.createStore(
+                reducer,
+                window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+            ); //전역변수
+            console.log(store.getState()); //yellow 
+
             function red(){
                 var state = store.getState(); //state 값을 가져올 수 있는 getState()
 
@@ -30,15 +44,44 @@
                     <div class="container" id="component_red" style="background-color:${state.color}">
                         <h1>red</h1>
                         <input type="button" value="fire" onclick="
-                        document.querySelector('#component_red').style.backgroundColor='red';
-                        document.querySelector('#component_green').style.backgroundColor='red';
-                        document.querySelector('#component_blue').style.backgroundColor='red';
-
+                            store.dispatch({type:'CHANGE_COLOR', color:'red'});
                         "/>
                     </div>
                 `;
             }
+            store.subscribe(red);
             red();
+
+            function blue(){
+                var state = store.getState(); //state 값을 가져올 수 있는 getState()
+
+                document.querySelector('#blue').innerHTML=`
+                    <div class="container" id="component_red" style="background-color:${state.color}">
+                        <h1>blue</h1>
+                        <input type="button" value="fire" onclick="
+                            store.dispatch({type:'CHANGE_COLOR', color:'blue'});
+                        "/>
+                    </div>
+                `;
+            }
+            store.subscribe(blue);
+            blue();
+
+
+            function green(){
+                var state = store.getState(); //state 값을 가져올 수 있는 getState()
+
+                document.querySelector('#green').innerHTML=`
+                    <div class="container" id="component_red" style="background-color:${state.color}">
+                        <h1>green</h1>
+                        <input type="button" value="fire" onclick="
+                            store.dispatch({type:'CHANGE_COLOR', color:'green'});
+                        "/>
+                    </div>
+                `;
+            }
+            store.subscribe(green);
+            green();
         </script>
     </body>
 </html>
