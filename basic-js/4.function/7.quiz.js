@@ -37,7 +37,7 @@
 
 function interate(max, action){
     for(let i = 0; i < max; i++){
-        action(i)
+        action(i) //콜백함수
     }
 }
 
@@ -51,7 +51,9 @@ function printDouble(num){
 
 // interate(3, log);
 // interate(3, printDouble);
-interate(3, (num) =>  console.log(num));
+
+// 함수 호출시 위와같이 정의를 해도되고, 화살표함수를 이용해서 조금 더 간결하게도 작성한다.
+interate(3, (num) =>  console.log(num)); 
 interate(3, (num) => console.log(num * 2));
 
 
