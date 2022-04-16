@@ -39,7 +39,7 @@
    <br>( Learn the basics | 学基础知识 & HTML시멘틱구조 | HTML5 语义元素 )</a></li>
    <li><a href="https://luckyjek.tistory.com/67?category=1243491">Forms 및 유효성검사 | 모범사례
    <br>( Forms and Validations & Conventions and Best Practices )</a></li>
-   <li><a href="https://luckyjek.tistory.com/68?category=1243491">웹 접근성 및 SEO기본 (미완성)
+   <li><a href="https://luckyjek.tistory.com/68?category=1243491">웹 접근성 및 SEO기본
    <br>( Accessibilty & SEO Basics )</a></li>
  </ul>  
  
