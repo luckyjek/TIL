@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<title>Transform</title>
+	<style>
+		/* scale */
+		/* rotate */
+		/* skew */
+		/* translate */
+		.container {
+			position:absolute;
+			left:50%;
+			top:50%;
+			transform:translate(-50%, -50%);
+			width: 600px;
+			padding: 30px;
+			background: gold;
+		}
+		.elem-wrapper {
+			display: flex;
+			align-items: center;
+			margin: 30px;
+		}
+		.elem {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100px;
+			height: 100px;
+			margin-right: 5px;
+			border: 3px solid midnightblue;
+			background: tomato;
+			cursor: pointer;
+		}
+		.box{
+			/*width와 달리, 자기 혼자만 변화가 생김 따라서 성능에좋다.*/
+			/* transform: scale(2); */
+			/* transform-origin: left top; */
+			/* transform-origin: 0% 0%; */
+		}
+		.ball {
+			border-radius: 50%;
+		}
+		.ilbuni {
+			width: 120px;
+		}
+		.tr {
+			transition: 0.5s;
+		}
+		.tr:hover {
+			/* transform: scale(1.5); */
+			/* transform: scale(2); */
+			/* transform:rotate(45deg); */
+			/* transform: skew(30deg); */
+			transform:scale(1.7) rotate(-30deg);
+
+			/*translate - 이동*/
+			/*translate에서 %는 나 자신의 크기가 기준(100% )*/
+			/* transform: translate(50px, 50px);
+			transform: translateX(100%); */
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates quidem est illo tempora, placeat libero ea officia soluta! Minima, alias! Blanditiis est deleniti nisi autem molestiae illum ipsam quaerat. Soluta voluptatibus ut deserunt quaerat nesciunt, accusantium vel ipsum! Esse adipisci facilis porro illo maxime necessitatibus incidunt deserunt inventore vitae.
+		</p>
+		<div class="elem-wrapper">
+			<div class="tr elem box">BOX</div>
+			<div class="tr elem ball">BALL</div>
+			<img class="tr ilbuni" src="images/ilbuni.png" alt="요가 일분이">
+		</div>
+		<p>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis vitae incidunt ipsam ea sit tempore nostrum quaerat quasi velit fugiat officia temporibus perspiciatis exercitationem nesciunt, explicabo et quas impedit earum?
+		</p>
+	</div>
+</body>
+</html>
