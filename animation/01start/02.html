@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<title>Animation</title>
+	<style>
+		@keyframes sample-ani {
+			0% {
+				transform: translateY(0);
+			}
+			50%{
+				transform: scale(1.5) rotate(90deg);
+			}
+			100%{
+				transform: scale(1.5) transLateY(-70%);
+			}
+		}
+
+
+		.ilbuni {
+			width: 200px;
+			height: 200px;
+			margin-top: 100px;
+			background: url('images/ilbuni.png') no-repeat 0 0 / cover;
+			/* animation: sample-ani infinite 1s alternate linear; */
+			animation: sample-ani 1s infinite alternate;
+		}
+		.ilbuni:hover{
+			animation-play-state: paused;
+		}
+	</style>
+</head>
+<body>
+	<div class="ilbuni"></div>
+</body>
+</html>
