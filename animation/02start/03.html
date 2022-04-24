@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="reset.css">
+	<title>Document</title>
+	<style>
+		html{
+			height: 100%;
+		}
+		body {
+			/* height: 100vh; */
+			height: 100%;
+			background: gold;
+			perspective: 1000px;
+		}
+		.world{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height:100%;
+			perspective: 1000px;
+		}
+		.card {
+			position: relative;
+			width: 200px;
+			height: 300px;
+			margin:20px;
+			transition: 0.5s;
+			transform-style:preserve-3d;
+			/* transform: perspective(1000px) rotateY(45deg); */
+		}
+		.card:hover {
+			transform: rotateY(180deg);
+		}
+		.card-face {
+			position: absolute;
+			left:0;
+			top:0;
+			width:100%;
+			height: 100%;
+			border-radius: 10px;
+			background: url('images/c.png') no-repeat #000 center / contain;
+			backface-visibility: hidden;
+		}
+		.card-face-back{
+			padding: 30px;
+			background: white;
+			transform: rotateY(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="world">
+		<div class="card">
+			<div class="card-face card-face-back">
+				Lorem ipsum dolor sit amet.
+			</div>
+			<div class="card-face card-face-front"></div>
+		</div>
+	</div>
+</body>
+</html>
