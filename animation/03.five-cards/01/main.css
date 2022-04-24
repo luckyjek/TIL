@@ -1,0 +1,99 @@
+html {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	color: #222;
+}
+body {
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif;
+	background: url(images/wood.png);
+	background-size: 300px auto;
+	cursor:none;
+}
+h1 {
+	padding: 1em 0;
+	font-size: 50px;
+	text-align: center;
+	color: #000;
+	text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0;
+}
+
+.world {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card {
+	flex: 0 0 auto;
+	width: 100px;
+	height: 150px;
+	margin: 30px;
+	cursor: pointer;
+	transform: perspective(500px);
+	transform-style: preserve-3d;
+	transition: 0.5s;
+	cursor:none;
+}
+.card[data-flip='true'] {
+	transform: perspective(500px) rotateY(180deg);
+}
+.card-side {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #222;
+	border-radius: 10px;
+	font-weight: bold;
+	text-align: center;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	box-shadow: rgba(0, 0, 0, 0.3) 0 3px 0;
+}
+.card-side-front {
+	font-size: 1rem;
+	background: white;
+}
+.card-side-back {
+	font-size: 12px;
+	background: gold;
+	transform: rotateY(180deg);
+}
+.card-photo {
+	width: 60px;
+	height: 60px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	border: 2px solid #222;
+	background-color: white;
+}
+.card:nth-child(1) .card-side-back { background: salmon; }
+.card:nth-child(2) .card-side-back { background: gold; }
+.card:nth-child(3) .card-side-back { background: limegreen; }
+.card:nth-child(4) .card-side-back { background: mediumturquoise; }
+.card:nth-child(5) .card-side-back { background: plum; }
+
+.card-side,
+.card-photo,
+.card-photo img {
+	pointer-events: none;
+}
+
+.hand {
+	position: absolute;
+	left: -5px;
+	top: -5px;
+	width: 100px;
+	height: 100px;
+	background: url(images/hand.png) no-repeat 0 0 / cover;
+	pointer-events: none;
+}
+.mousedown .hand {
+	background-image: url(images/hand2.png);
+}
