@@ -54,16 +54,20 @@ tiger.sleep();
 tiger.eat();
 
 class Dog extends Animal {
+
+    // 자식 class에서 constructor를 정의하는 순간,
+    // animal에 필요한것도 다 받아와야 한다.
     constructor(color, ownerName){
-        super(color);
+        super(color); //부모
         this.ownerName = ownerName;
     }
     play(){
         console.log('놀자아~');
     }
+
     // 오버라이딩 overriding
     eat(){
-        super.eat();
+        super.eat(); //부모에 있는 함수를 super를 통해 호출가능.
         console.log('강아지가 먹는다!');
     }
 }
