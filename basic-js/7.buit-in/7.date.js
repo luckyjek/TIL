@@ -8,7 +8,7 @@ console.log(Date.parse('2022-12-17T03:24:00'));
 
 const now = new Date();
 now.setFullYear(2023);
-now.setMonth(0); //0: 1
+now.setMonth(0); // 0: 1
 console.log(now.getFullYear());
 console.log(now.getDate()); //0: 1
 console.log(now.getDay()); //0 일요일~ 1..6: 토요일
@@ -21,5 +21,3 @@ console.log(now.toTimeString());
 console.log(now.toISOString()); //ISO 8601 형식
 console.log(now.toLocaleString('en-US'));
 console.log(now.toLocaleString('ko-KR'));
-
-

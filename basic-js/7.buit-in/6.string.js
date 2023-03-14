@@ -21,17 +21,17 @@ console.log(text.includes('H'));
 console.log(text.startsWith('He'));
 console.log(text.endsWith('!'));
 
-console.log(text.toUpperCase());
-console.log(text.toLowerCase());
+console.log(text.toUpperCase()); // 대문자로 변환
+console.log(text.toLowerCase()); // 소문자로 변환
 
 console.log(text.substring(0, 2));
 console.log(text.slice(2));
 console.log(text.slice(-2));
 
-const space = '          space      ';
-console.log(space.trim());
+const space = '          space      '; 
+console.log(space.trim()); //공백 제거
 
-const longText = 'Get to he, point';
+const longText = 'Get to the, point';
 console.log(longText.split(' '));
 console.log(longText.split(', ', 2));
 

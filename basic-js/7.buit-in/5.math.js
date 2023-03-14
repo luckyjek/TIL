@@ -16,6 +16,8 @@ console.log(Math.round(1.7));
 // 정수만 반환
 console.log(Math.trunc(1.5432));
 
+
+// 아래 제일 많이 사용하는 함수 's
 // 최대, 최소값 찾기
 console.log(Math.max(1, 2, 4));
 console.log(Math.max(1, 2, 4));
@@ -24,11 +26,11 @@ console.log(Math.max(1, 2, 4));
 console.log(3 ** 2);
 console.log(Math.pow(3, 2));
 
-// 제곱근
-console.log(Math.sqrt(9));
+// 제곱근 
+console.log(Math.sqrt(9)); //어떤걸 2번 곱해야 9가 되냐?
 
 // 랜덤한 값을 반환
 console.log(Math.random());
 
-// 1~10
+// 1~10까지의 랜덤한 숫자를 찾고싶다 : 0부터 
 console.log(Math.round(Math.random() * 10 +1));
