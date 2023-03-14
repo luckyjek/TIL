@@ -1,60 +1,62 @@
-const fruits =  ['🍌','🍓','🍇','🍓']; 
-for( let i = 0; i< fruits.length; i++){
-    console.log(fruits[i]);
-}
+// hof === Higher-Order Function(고차원 함수)
 
+const fruits =  ['🍌','🍓','🍇','🍓']; 
 // function interate/forEach (array, action) {
 //     for(let i = 0; i < array.length; i++){
 //         action(array[i])
 //     }
 // }
 
+// for문 사용하지않고, 고차함수 forEach를 사용하자!
 // 배열을 빙글 빙글 돌면서 원하는것(콜백함수)을 할때
-// fruits.forEach ( 
-//     function(value) {
-//         console.log('------------------');
-//         console.log(value);
-//     }
-// );
+fruits.forEach ( 
+    function(value) {
+        console.log('------------------');
+        console.log(value);
+    }
+);
 
+// errow function
 fruits.forEach((value) => console.log(value));
 
-// 조건에 맞는(콜백함수) 아이템을 찾을때
-// find: 제일 먼저 조건에 맞는 아이템을 반환
+// 조건에 맞는(콜백함수) 아이템을 찾을때 '고차함수'를 사용하자(finde... 등)
 const item1 = {name: '🥛', price:2};
 const item2 = {name: '🍪', price:3};
-const item3 = {name: '🍙', price:1};
-const products = [item1, item2, item3, item2];
+const item3 = { name: '🍙', price: 1 };
+const item4 = {name: '🍪', price:4};
+const products = [item1, item2, item3, item2, item4];
 
-let result = products.find((value) => value.name === '🍪');
-console.log(result);
+// find: 제일 먼저 조건에 맞는 아이템을 반환
+// 배열의 이름이 쿠키인 아이를 찾아서 리턴
+let result = products.find((value) => value.name === '🍪'); 
+console.log('result1',result);
 
 // findIndex: 제일 먼저 조건에 맞는 아이템의 인덱스를 반환
 result = products.findIndex((value) => value.name === '🍪');
-console.log(result);
+console.log('findIndex',result);
 
 // 배열의 아이템들이 부분적으로 조건(콜백함수)에 맞는지 확인
 result = products.some((item) => item.name === '🍪');
 console.log(result);
 
-// 배열의 아이템들이 전부 조건(콜백함수)에 맞는지 확인
+// 배열의 아이템들이 전부 조건(콜백함수)에 맞는지 확인 -> 모든 아이템들이 '🍪'를 가지고있니?
 result = products.every((item) => item.name === '🍪');
-console.log(result);
+console.log('every',result);
 
-// 조건에 맞는 모든 아이템들을 새로운 배열로!
+// 조건에 맞는 모든 아이템들을 새로운 배열로! 내가 원하는 조건의 item들로만 새로운 배열을 만들고 싶을때 사용.
 result = products.filter((item) => item.name === '🍪');
-console.log(result);
+console.log('filter:',result); //3
 
 console.clear();
 
-// Map 배열의 아이템들을 각각 다른 아이템으로 매핑할 수 있는, 변환해서 새로운 배열 생성!
+// Map 배열의 아이템들을 각각 다른 아이템으로 '매핑'할 수 있는, 변환해서 새로운 배열 생성!
 const nums = [1, 2, 3, 4, 5];
-result = nums.map((item) => item * 2);
-console.log(result);
+result = nums.map((item) => item * 2); // [ 2, 4, 6, 8, 10 ]
+console.log('result', result);
 
 result = nums.map((item) => {
     if(item % 2 === 0) {
-        return item * 2;
+        return item * 2; //특정한 요소를 다른요소로 맵팅해서 변환할 수 있다.
     } else {
         return item;
     }
@@ -62,11 +64,13 @@ result = nums.map((item) => {
 console.log(result);
 
 // Flatmap: 중 
+
+// 
 result = nums.map((itme) => [1,2]);
-console.log(result);
+console.log('map result',result);
 
 result = ['EunKyung', 'Jung'].flatMap((text) => text.split(''));
-console.log(result);
+console.log('Flatmap result', result);
 
 // sort 배열의 아이템들을 정렬
 // 문자열 형태의 오름차순으로 요소를 정렬하고, 기존의 배열을 변경
@@ -87,5 +91,6 @@ console.log(numbers);
 //     sum += value;
 //     return sum;
 // }, 0);
+
 result = [1, 2, 3, 4, 5].reduce((sum, value) => sum += value, 0);
 console.log(result);

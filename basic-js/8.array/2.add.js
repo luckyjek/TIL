@@ -12,9 +12,10 @@ for(let i = 0; i < fruits.length; i++){
 }
 
 //const fruits =['🍌','🍎','🍇','🍑'];
+
 //추가, 삭제 - 좋지 않은 방식 💩
-fruits[6] = '🍓'; //index이용
+fruits[6] = '🍓'; // index이용
 console.log(fruits);
 
-delete fruits[1]; //그자리에 계속 남아있다.
+delete fruits[1]; // 그 자리에 계속 남아있다.
 console.log(fruits);
