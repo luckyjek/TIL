@@ -15,14 +15,14 @@ console.log(set.has(6)); //false
 // 따라서 배열의 고차함수처럼 받아서 하나씩 출력 할 수 있다.
 set.forEach((item) => console.log(item));
 for(const value of set.values()){
-    console.log(value);
+    console.log('const of', value);
 }
 
 // 추가
 set.add(6);
 console.log('set1',set);
 set.add(6); // 있는데 추가해서 무시됨.
-console.log('set2',set); // 중복불가
+console.log('set2',set); // 중복불가 -> 배열은 중복이 가능하지만, set은 중복이안된다.
 
 // 삭제
 set.delete(6);
@@ -42,12 +42,12 @@ console.log('objs', objs);
 
 // 퀴즈
 obj1.price = 10;
-objs.add(obj1);
+objs.add(obj1); // 위에 price가 10으로 바뀌면서 .add가 될 것 같았지만, 동일한 object주소를 추가하므로 즉, '쉘로우 카피'가되므로 동일한것이 들어가지못한다. 
 console.log(objs);
 
 // 퀴즈
 const obj3 = {name: '🍌', price:5};
-objs.add(obj3);
+objs.add(obj3); // 새롭게 object 리터럴을 이용해서 만들었으므로, 새로운 주소를 가지고 있을 것이다.
 console.log(objs);
 obj3.price = 8;
 console.log(objs);
