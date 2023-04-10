@@ -1,10 +1,12 @@
 import React from 'react';
+import CounterContainer from './containers/CounterContainer';
 
-export default function App() {
+function App() {
   return (
     <div>
-      hi
+      <CounterContainer />
     </div>
   );
 }
 
+export default App;
