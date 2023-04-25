@@ -5,12 +5,13 @@ import Checkbox from '../Checkbox';
 import CircleButton from '../Button/CircleButton';
 import TodoInput from '../TodoInput';
 
-const Box = styled.div`
+const Box = styled.div<{ isEditing: boolean }>`
   display: flex;
   align-items: center;
-  padding: 15px 25px;
+  padding: ${props =>
+    props.isEditing ? '11px 15px 11px 25px' : '15px 15px 15px 25px'};
   width: 100%;
-  font-size: 1.2em;
+  font-size: 1.1em;
   border-bottom: 1px solid #eee;
 
   & > .delete-button {
@@ -39,7 +40,7 @@ const TodoContent = styled.span<{ checked: boolean }>`
 
 export default function TodoItem({ todo }: { todo: ITodoItem }) {
   return (
-    <Box>
+    <Box isEditing={todo.editing}>
       <div style={{ width: '100%', display: 'flex', alignItems: 'center' }}>
         <Checkbox checked={todo.completed} />
         <Block marginLeft="10px" />
