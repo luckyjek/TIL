@@ -53,7 +53,23 @@ export function HomePage() {
           />
           <TodoList>
             {todoList.map(todo => (
-              <TodoItem todo={todo}></TodoItem>
+              <TodoItem
+                todo={todo}
+                checkTodo={() =>
+                  dispatch(TodoActions.checkTodo({ id: todo.id }))
+                }
+                editModeTodo={() =>
+                  dispatch(TodoActions.editModeTodo({ id: todo.id }))
+                }
+                editTodo={(content: string) =>
+                  dispatch(
+                    TodoActions.editTodo({ id: todo.id, content: content }),
+                  )
+                }
+                deleteTodo={() =>
+                  dispatch(TodoActions.deleteTodo({ id: todo.id }))
+                }
+              />
             ))}
           </TodoList>
         </Box>

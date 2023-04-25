@@ -38,21 +38,42 @@ const TodoContent = styled.span<{ checked: boolean }>`
   color: ${props => (props.checked ? '#aaa' : '##212121')};
 `;
 
-export default function TodoItem({ todo }: { todo: ITodoItem }) {
+export default function TodoItem({
+  todo,
+  checkTodo,
+  editModeTodo,
+  editTodo,
+  deleteTodo,
+}: {
+  todo: ITodoItem;
+  checkTodo: () => void;
+  editModeTodo: () => void;
+  editTodo: (todo: string) => void;
+  deleteTodo: () => void;
+}) {
   return (
     <Box isEditing={todo.editing}>
       <div style={{ width: '100%', display: 'flex', alignItems: 'center' }}>
-        <Checkbox checked={todo.completed} />
+        <Checkbox checked={todo.completed} onClick={() => checkTodo()} />
         <Block marginLeft="10px" />
         {todo.editing ? (
-          <TodoInput />
+          <TodoInput
+            editTodo={(todo: string) => {
+              editTodo(todo);
+              editModeTodo();
+            }}
+            isEditing={true}
+            editContent={todo.content}
+          />
         ) : (
-          <TodoContent checked={todo.completed}>{todo.content}</TodoContent>
+          <TodoContent onClick={() => editModeTodo()} checked={todo.completed}>
+            {todo.content}
+          </TodoContent>
         )}
       </div>
       <CircleButton
         className="delete-button"
-        onClick={() => {}}
+        onClick={() => deleteTodo()}
         Icon={() => (
           <svg
             xmlns="http://www.w3.org/2000/svg"
