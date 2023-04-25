@@ -29,7 +29,7 @@ export default function TodoInput({
   editModeTodo?: () => void;
   editTodo?: (content: string) => void;
 }) {
-  const [content, setContent] = React.useState<string>('');
+  const [content, setContent] = React.useState<string>(editContent || '');
   return (
     <Box isEditing={isEditing}>
       <Input
