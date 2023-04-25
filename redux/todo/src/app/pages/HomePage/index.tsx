@@ -34,7 +34,7 @@ export function HomePage() {
       id: '1',
       content: '첫번째 두투',
       completed: false,
-      editing: false,
+      editing: true,
     },
     {
       id: '2',
