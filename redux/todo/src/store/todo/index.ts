@@ -1,28 +1,30 @@
 import { PayloadAction, createSlice, nanoid } from '@reduxjs/toolkit';
 import { TodoState } from './type';
 import { useInjectReducer } from 'redux-injectors';
+import { loadTodoData, saveTodoData } from 'store/localStoage';
 
 export const initialState: TodoState = {
-  todolist: [
-    // {
-    //   id: '1',
-    //   content: '첫번째 두투',
-    //   completed: false,
-    //   editing: true,
-    // },
-    // {
-    //   id: '2',
-    //   content: '두번째 두투',
-    //   completed: true,
-    //   editing: false,
-    // },
-    // {
-    //   id: '3',
-    //   content: '세번째 두투',
-    //   completed: true,
-    //   editing: false,
-    // },
-  ],
+  todolist: loadTodoData(),
+  // [
+  // {
+  //   id: '1',
+  //   content: '첫번째 두투',
+  //   completed: false,
+  //   editing: true,
+  // },
+  // {
+  //   id: '2',
+  //   content: '두번째 두투',
+  //   completed: true,
+  //   editing: false,
+  // },
+  // {
+  //   id: '3',
+  //   content: '세번째 두투',
+  //   completed: true,
+  //   editing: false,
+  // },
+  // ],
 };
 
 const slice = createSlice({
@@ -32,6 +34,7 @@ const slice = createSlice({
     addTodo: {
       reducer: (state, action: PayloadAction<ITodoItem>) => {
         state.todolist.push(action.payload);
+        saveTodoData(state.todolist);
       },
       prepare: (content: string) => {
         //todo를 추가할때, 컴포넌트에서는 todo의 내용만 구현? 해주기때문에 prepare에서
@@ -53,6 +56,7 @@ const slice = createSlice({
       if (todo) {
         todo.completed = !todo.completed;
       }
+      saveTodoData(state.todolist);
     },
     editModeTodo(state, action: PayloadAction<{ id: string }>) {
       const id = action.payload.id;
@@ -75,11 +79,13 @@ const slice = createSlice({
       if (todo) {
         todo.content = content;
       }
+      saveTodoData(state.todolist);
     },
     deleteTodo(state, action: PayloadAction<{ id: string }>) {
       const id = action.payload.id;
       const filteredTodos = state.todolist.filter(todo => todo.id !== id);
       state.todolist = filteredTodos;
+      saveTodoData(state.todolist);
     },
   },
 });
